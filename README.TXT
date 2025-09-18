@@ -11,3 +11,10 @@ HOW TO START THIS PROJECT:
 AUTHORS:
 USER INSTRUCTIONS:
  testing
+ 
+ 
+ Question 11: 
+ get yearOfBirth()
+ return yearOfBirth;
+ 
+ set HourlyWage()

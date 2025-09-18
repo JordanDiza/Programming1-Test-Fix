@@ -17,6 +17,13 @@ public class Employee{
         this.hourlyWage = hourlyWage;
         onLeave = false;
         unpaidHours = 0.0;
+        
+        //get yearOfBirth()
+        //return yearofBirth;
+        
+        //set hourlyWage()
+        //hourlyWage=18.75;
+        
     }
     
     /**
@@ -32,6 +39,13 @@ public class Employee{
     public boolean canDrive(){
         int age = calculateAge(2025);
         // to be completed
+        // if 
+             //age>=16
+             //print "Can drive"
+            //else
+               //return (currentYear-currentAge);
+               //print "You'll be able to drive in "years years"
+             
     }
 
     /*
@@ -39,6 +53,11 @@ public class Employee{
      */
     private double calculatePay(){
         // to be completed
+        // set salary to (UnpaidHours x hourlyWage)
+        // set taxes to 30%
+        // print
+        
+        
     }
 
     /*
@@ -46,5 +65,11 @@ public class Employee{
      */
     public void paySalary(){
         // to be completed
+        //public void paySalary() {
+        // set salary to 100
+        // set transfer to 70
+        // print"John Deere has received a wire transfer of 70CAD"
+
+        }
     }
 }

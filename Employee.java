@@ -45,6 +45,15 @@ public class Employee{
             //else
                //return (currentYear-currentAge);
                //print "You'll be able to drive in "years years"
+        if (age >= 16){
+            System.out.println("Can drive");
+            return true;
+            
+        } else { 
+            System.out.Println("You'll be able to drive in" + (16 - age) + "years"); 
+            return false;
+            
+        }
              
     }
 
@@ -56,6 +65,10 @@ public class Employee{
         // set salary to (UnpaidHours x hourlyWage)
         // set taxes to 30%
         // print
+        double salary = undpaidHours * hourlyWage;
+        double netPay = salary * 0.7;
+        return netPay;
+        
         
         
     }
@@ -69,7 +82,14 @@ public class Employee{
         // set salary to 100
         // set transfer to 70
         // print"John Deere has received a wire transfer of 70CAD"
+        
+        double netPay = calculatePay();
+        System.out.println(fullname + " has received a wire transfer of " + netPay + "CAD");
+        
 
-        }
+    }
+    public void addUnpaidHours(double hours){
+     unpaidHours += hours;
+    }
     }
 }

@@ -20,9 +20,16 @@ public class Employee{
         
         //get yearOfBirth()
         //return yearofBirth;
+        public int getYearOfBirth() {
+            return yearOfBirth;
+        }
+
         
         //set hourlyWage()
         //hourlyWage=18.75;
+        public void setHourlyWage(double wage){
+            this.hourlyWage = wage;
+       }
         
     }
     
